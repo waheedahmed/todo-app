@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,4 +35,27 @@
   100% {
     transform: translateY(0px)
   }
+}
+
+.todo-list {
+  list-style: decimal;
+  text-align: left;
+}
+
+.actions {
+  margin-left: 10px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+  font-size: 22px;
+  color: red;
+}
+
+.mark-completed {
+  color: green;
+}
+
+.todo-item__text--completed {
+  text-decoration: line-through;
+  color: lightgray;
 }
